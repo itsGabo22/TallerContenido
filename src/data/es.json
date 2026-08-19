@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "products": "Productos",
+    "about": "Nosotros",
+    "contact": "Contacto"
+  },
+  "home": {
+    "hero_title": "La Tradición que Refresca a Nariño",
+    "hero_subtitle": "Descubre el sabor auténtico de nuestra región con Gaseosas La Cigarra. 79 años acompañando los mejores momentos de tu vida.",
+    "hero_cta": "Ver Productos",
+    "value_prop_title": "¿Por qué elegirnos?",
+    "value_prop_1_title": "Sabor Único",
+    "value_prop_1_desc": "Elaborado con recetas tradicionales que han pasado de generación en generación.",
+    "value_prop_2_title": "Calidad Premium",
+    "value_prop_2_desc": "Seleccionamos los mejores ingredientes para garantizar la máxima frescura.",
+    "value_prop_3_title": "Orgullo Regional",
+    "value_prop_3_desc": "Una empresa 100% nariñense, comprometida con el desarrollo de nuestra tierra.",
+    "featured_title": "Productos Destacados",
+    "view_all": "Ver todos"
+  },
+  "products": {
+    "title": "Nuestros Productos",
+    "subtitle": "Una amplia variedad de bebidas para cada ocasión.",
+    "all": "Todos",
+    "sodas": "Gaseosas",
+    "water": "Aguas",
+    "details": "Detalles"
+  },
+  "about": {
+    "title": "Nuestra Historia",
+    "subtitle": "79 años refrescando a Nariño.",
+    "mission_title": "Misión",
+    "mission_text": "Producir y comercializar bebidas de excelente calidad, satisfaciendo los gustos y necesidades de nuestros consumidores, generando bienestar a nuestros colaboradores y contribuyendo al desarrollo de la región.",
+    "vision_title": "Visión",
+    "vision_text": "Ser la empresa líder en el mercado de bebidas en el suroccidente colombiano, reconocida por la calidad de sus productos, la innovación y el compromiso con el medio ambiente.",
+    "history_title": "Historia",
+    "history_text": "Desde nuestros humildes comienzos hace casi ocho décadas, Gaseosas La Cigarra ha sido un símbolo de alegría y tradición en los hogares de Nariño."
+  },
+  "contact": {
+    "title": "Contáctanos",
+    "subtitle": "Estamos aquí para escucharte.",
+    "phone": "Teléfono",
+    "phone_value": "+57 300 123 4567",
+    "email": "Correo Electrónico",
+    "email_value": "contacto@gaseosaslacigarra.co",
+    "address": "Dirección",
+    "address_value": "Pasto, Nariño, Colombia",
+    "schedule": "Horario de Atención",
+    "schedule_value": "Lunes a Viernes: 8:00 AM - 6:00 PM",
+    "form_name": "Nombre",
+    "form_email": "Correo",
+    "form_message": "Mensaje",
+    "form_submit": "Enviar Mensaje"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  }
+}

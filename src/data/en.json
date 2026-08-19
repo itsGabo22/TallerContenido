@@ -1,0 +1,59 @@
+{
+  "nav": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero_title": "The Tradition that Refreshes Nariño",
+    "hero_subtitle": "Discover the authentic taste of our region with Gaseosas La Cigarra. 79 years accompanying the best moments of your life.",
+    "hero_cta": "View Products",
+    "value_prop_title": "Why choose us?",
+    "value_prop_1_title": "Unique Flavor",
+    "value_prop_1_desc": "Made with traditional recipes passed down from generation to generation.",
+    "value_prop_2_title": "Premium Quality",
+    "value_prop_2_desc": "We select the best ingredients to guarantee maximum freshness.",
+    "value_prop_3_title": "Regional Pride",
+    "value_prop_3_desc": "A 100% Nariño company, committed to the development of our land.",
+    "featured_title": "Featured Products",
+    "view_all": "View all"
+  },
+  "products": {
+    "title": "Our Products",
+    "subtitle": "A wide variety of drinks for every occasion.",
+    "all": "All",
+    "sodas": "Sodas",
+    "water": "Water",
+    "details": "Details"
+  },
+  "about": {
+    "title": "Our History",
+    "subtitle": "79 years refreshing Nariño.",
+    "mission_title": "Mission",
+    "mission_text": "To produce and market excellent quality beverages, satisfying the tastes and needs of our consumers, generating well-being for our collaborators, and contributing to the development of the region.",
+    "vision_title": "Vision",
+    "vision_text": "To be the leading company in the beverage market in southwestern Colombia, recognized for the quality of its products, innovation, and commitment to the environment.",
+    "history_title": "History",
+    "history_text": "Since our humble beginnings nearly eight decades ago, Gaseosas La Cigarra has been a symbol of joy and tradition in the homes of Nariño."
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We are here to listen to you.",
+    "phone": "Phone",
+    "phone_value": "+57 300 123 4567",
+    "email": "Email",
+    "email_value": "contact@gaseosaslacigarra.co",
+    "address": "Address",
+    "address_value": "Pasto, Nariño, Colombia",
+    "schedule": "Business Hours",
+    "schedule_value": "Monday to Friday: 8:00 AM - 6:00 PM",
+    "form_name": "Name",
+    "form_email": "Email",
+    "form_message": "Message",
+    "form_submit": "Send Message"
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}
