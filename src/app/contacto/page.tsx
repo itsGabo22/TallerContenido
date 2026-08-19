@@ -1,24 +1,38 @@
 "use client";
 
 import { useLanguage } from "@/context/LanguageContext";
+import Image from "next/image";
+import { Phone, Mail, MapPin, Clock } from "lucide-react";
 
 export default function ContactoPage() {
-  const { t } = useLanguage();
+  const { t, locale } = useLanguage();
 
   return (
     <div className="flex flex-col gap-12 pt-8 max-w-6xl mx-auto w-full">
       
-      <div className="text-center flex flex-col gap-4">
+      <div className="text-center flex flex-col gap-4 relative">
         <h1 className="text-4xl md:text-5xl font-extrabold">{t("contact.title")}</h1>
         <p className="opacity-70 text-lg">{t("contact.subtitle")}</p>
       </div>
+      
+      {/* Storefront Image Banner */}
+      <div className="w-full h-64 rounded-3xl overflow-hidden relative glass-panel shadow-lg">
+        <Image 
+          src="https://gaseosaslacigarra.co/wp-content/uploads/2025/05/lacigarralocal-FACHADA-ENTRADDA.jpg"
+          alt={locale === "es" ? "Fachada de Gaseosas La Cigarra" : "Gaseosas La Cigarra storefront"}
+          fill
+          className="object-cover opacity-80 hover:opacity-100 transition-opacity duration-500"
+        />
+      </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start mt-8">
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
         
         {/* Contact Info */}
         <div className="flex flex-col gap-6">
           <div className="glass-card p-6 flex items-start gap-4">
-            <div className="w-10 h-10 rounded-full bg-brand-primary/20 flex-shrink-0 flex items-center justify-center">📞</div>
+            <div className="w-12 h-12 rounded-2xl bg-brand-primary/20 flex-shrink-0 flex items-center justify-center">
+              <Phone className="text-brand-primary" size={24} />
+            </div>
             <div>
               <h3 className="font-bold text-lg">{t("contact.phone")}</h3>
               <p className="opacity-80">{t("contact.phone_value")}</p>
@@ -26,7 +40,9 @@ export default function ContactoPage() {
           </div>
 
           <div className="glass-card p-6 flex items-start gap-4">
-            <div className="w-10 h-10 rounded-full bg-brand-primary/20 flex-shrink-0 flex items-center justify-center">✉️</div>
+            <div className="w-12 h-12 rounded-2xl bg-brand-primary/20 flex-shrink-0 flex items-center justify-center">
+              <Mail className="text-brand-primary" size={24} />
+            </div>
             <div>
               <h3 className="font-bold text-lg">{t("contact.email")}</h3>
               <p className="opacity-80">{t("contact.email_value")}</p>
@@ -34,7 +50,9 @@ export default function ContactoPage() {
           </div>
 
           <div className="glass-card p-6 flex items-start gap-4">
-            <div className="w-10 h-10 rounded-full bg-brand-primary/20 flex-shrink-0 flex items-center justify-center">📍</div>
+            <div className="w-12 h-12 rounded-2xl bg-brand-primary/20 flex-shrink-0 flex items-center justify-center">
+              <MapPin className="text-brand-primary" size={24} />
+            </div>
             <div>
               <h3 className="font-bold text-lg">{t("contact.address")}</h3>
               <p className="opacity-80">{t("contact.address_value")}</p>
@@ -42,7 +60,9 @@ export default function ContactoPage() {
           </div>
 
           <div className="glass-card p-6 flex items-start gap-4">
-            <div className="w-10 h-10 rounded-full bg-brand-primary/20 flex-shrink-0 flex items-center justify-center">🕒</div>
+            <div className="w-12 h-12 rounded-2xl bg-brand-primary/20 flex-shrink-0 flex items-center justify-center">
+              <Clock className="text-brand-primary" size={24} />
+            </div>
             <div>
               <h3 className="font-bold text-lg">{t("contact.schedule")}</h3>
               <p className="opacity-80">{t("contact.schedule_value")}</p>

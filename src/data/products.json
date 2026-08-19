@@ -4,7 +4,7 @@
     "name": "Manzana La Cigarra",
     "category": "sodas",
     "description": "El sabor dulce e inconfundible de la manzana. / The sweet and unmistakable taste of apple.",
-    "image": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?auto=format&fit=crop&q=80&w=600",
+    "image": "https://gaseosaslacigarra.co/wp-content/uploads/2023/10/Agua-el-Bosque-bolsa-600ml-fotor-bg-remover-20231030172354-300x300.jpg",
     "featured": true
   },
   {
@@ -12,7 +12,7 @@
     "name": "Naranja La Cigarra",
     "category": "sodas",
     "description": "Refrescante sabor a naranja con el toque de la región. / Refreshing orange flavor with a regional touch.",
-    "image": "https://images.unsplash.com/photo-1620854441513-4318debd504e?auto=format&fit=crop&q=80&w=600",
+    "image": "https://gaseosaslacigarra.co/wp-content/uploads/2023/11/Agua-con-Gas-600-ml-paca-X-12-15500-300x300.jpeg",
     "featured": true
   },
   {
@@ -20,7 +20,7 @@
     "name": "Agua Pura El Bosque",
     "category": "water",
     "description": "Agua de manantial purificada, ideal para hidratarse. / Purified spring water, ideal for hydration.",
-    "image": "https://images.unsplash.com/photo-1548839140-29a749e1bc4e?auto=format&fit=crop&q=80&w=600",
+    "image": "https://gaseosaslacigarra.co/wp-content/uploads/2023/09/WhatsApp-Image-2023-10-27-at-5.35.09-PM-300x300.jpeg",
     "featured": true
   },
   {
@@ -28,7 +28,7 @@
     "name": "Kolita La Cigarra",
     "category": "sodas",
     "description": "Nuestra tradicional y deliciosa Kolita. / Our traditional and delicious Kolita.",
-    "image": "https://images.unsplash.com/photo-1581006852262-e4307cf6283a?auto=format&fit=crop&q=80&w=600",
+    "image": "https://gaseosaslacigarra.co/wp-content/uploads/2023/10/Agua-el-Bosque-bolsa-600ml-fotor-bg-remover-20231030172354-300x300.jpg",
     "featured": false
   },
   {
@@ -36,7 +36,7 @@
     "name": "Agua con Gas El Bosque",
     "category": "water",
     "description": "Agua carbonatada refrescante y ligera. / Refreshing and light carbonated water.",
-    "image": "https://images.unsplash.com/photo-1548839140-29a749e1bc4e?auto=format&fit=crop&q=80&w=600",
+    "image": "https://gaseosaslacigarra.co/wp-content/uploads/2023/11/Agua-con-Gas-600-ml-paca-X-12-15500-300x300.jpeg",
     "featured": false
   },
   {
@@ -44,7 +44,7 @@
     "name": "Piña La Cigarra",
     "category": "sodas",
     "description": "La frescura tropical de la piña. / The tropical freshness of pineapple.",
-    "image": "https://images.unsplash.com/photo-1620854441513-4318debd504e?auto=format&fit=crop&q=80&w=600",
+    "image": "https://gaseosaslacigarra.co/wp-content/uploads/2023/09/WhatsApp-Image-2023-10-27-at-5.35.09-PM-300x300.jpeg",
     "featured": false
   }
 ]

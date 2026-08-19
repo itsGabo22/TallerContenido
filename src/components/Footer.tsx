@@ -1,10 +1,11 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useLanguage } from "@/context/LanguageContext";
 
 export default function Footer() {
-  const { t } = useLanguage();
+  const { t, locale } = useLanguage();
   
   return (
     <footer className="w-full mt-12 px-4 pb-4 sm:px-6 lg:px-8">
@@ -12,8 +13,14 @@ export default function Footer() {
         
         <div className="flex flex-col items-center md:items-start max-w-xs text-center md:text-left">
           <div className="flex items-center gap-2 mb-4">
-            <div className="w-8 h-8 rounded-full bg-gradient-to-tr from-brand-primary to-brand-accent flex items-center justify-center text-white font-bold text-sm shadow-md">
-              LC
+            <div className="w-12 h-12 rounded-full flex items-center justify-center shadow-md overflow-hidden bg-white">
+              <Image 
+                src="/images/logo.webp" 
+                alt={locale === "es" ? "Gaseosas La Cigarra" : "Gaseosas La Cigarra logo"} 
+                width={48} 
+                height={48}
+                className="object-contain"
+              />
             </div>
             <span className="font-bold text-lg text-brand-primary tracking-tight">La Cigarra</span>
           </div>

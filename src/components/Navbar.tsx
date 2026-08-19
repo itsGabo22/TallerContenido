@@ -1,8 +1,10 @@
 "use client";
 
 import Link from "next/link";
+import Image from "next/image";
 import { useLanguage } from "@/context/LanguageContext";
 import { useState } from "react";
+import { Menu } from "lucide-react";
 
 export default function Navbar() {
   const { t, locale, toggleLanguage } = useLanguage();
@@ -12,8 +14,14 @@ export default function Navbar() {
     <header className="fixed top-0 w-full z-50 px-4 py-4 sm:px-6 lg:px-8">
       <nav className="glass-panel mx-auto max-w-7xl rounded-full px-6 py-3 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 group">
-          <div className="w-10 h-10 rounded-full bg-gradient-to-tr from-brand-primary to-brand-accent flex items-center justify-center text-white font-bold text-xl shadow-lg group-hover:scale-105 transition-transform">
-            LC
+          <div className="w-10 h-10 rounded-full flex items-center justify-center shadow-lg group-hover:scale-105 transition-transform overflow-hidden bg-white">
+            <Image 
+              src="/images/logo.webp" 
+              alt={locale === "es" ? "Gaseosas La Cigarra" : "Gaseosas La Cigarra logo"} 
+              width={40} 
+              height={40}
+              className="object-contain"
+            />
           </div>
           <span className="font-bold text-lg hidden sm:block tracking-tight text-brand-primary">La Cigarra</span>
         </Link>
@@ -39,7 +47,7 @@ export default function Navbar() {
             className="md:hidden p-2 rounded-full hover:bg-white/20 transition-colors"
             onClick={() => setIsOpen(!isOpen)}
           >
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="4" x2="20" y1="12" y2="12"/><line x1="4" x2="20" y1="6" y2="6"/><line x1="4" x2="20" y1="18" y2="18"/></svg>
+            <Menu size={24} />
           </button>
         </div>
       </nav>
